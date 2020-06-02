@@ -1,2 +1,0 @@
-# lcknow
-tour guide demo
