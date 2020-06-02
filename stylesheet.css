@@ -1,0 +1,226 @@
+#header{
+	background-color: #00ffff;
+}
+
+
+.header-title{
+	font-family: "Pacifico", cursive;
+	color:white;
+	float: left;
+	font-size: 3rem;
+	font-weight: bold;
+	padding:1%;
+	padding-left: 10%;
+}
+
+.header-list li{
+	font-family: "Pacifico", cursive;
+	list-style: none;
+	float:right;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding:2.1%;
+	padding-right: 10%;
+	color:white;
+}
+
+@media (max-width: 1028px){
+	.header-title{
+		text-align: center;
+		float: none;
+		padding-right:0px;
+		padding-left: 0px;
+	}
+	.header-list li{
+		text-align: center;
+		float: none;
+		padding-right:6.5%;
+		padding-left: 0px;
+	}
+}
+
+.starter{
+	background-color: #00ffff;
+}
+
+/*slidde*/
+ 
+.slide-photos{
+	padding:3%;
+	padding-bottom: 10px;
+}
+
+.ss{
+	padding:5%;
+}
+
+/*details*/
+.details{
+	padding:5%;
+}
+
+.detail-column{
+	text-align: center;
+}
+
+.detail-logo-m{
+	color:#A52A2A;
+}
+
+.detail-logo-g{
+	color:#00FA9A;
+}
+
+.detail-logo-f{
+	color:#FF8C00;
+}
+
+.detail-logo-m:hover{
+	color:#00ffff;
+}
+
+.detail-logo-g:hover{
+	color:#00ffff;
+}
+
+.detail-logo-f:hover{
+	color:#00ffff;
+}
+
+/*imformation table*/
+
+#imfo{
+   background-color: #00ffff;
+}
+
+.imfo-para h3,p{
+	text-align: center;
+}
+
+.imfo-para p{
+	padding-right: 4%;
+	padding-left: 4%;
+}
+.imfo-para h3{
+	font-family: "Righteous";
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.imfo-image{
+	width: 140px;
+	height:140px;
+	border-radius: 100%;
+	padding:3%;
+}
+
+.photo-column{
+	padding:5%;
+}
+
+.info-cc{
+	padding:2%;
+}
+/*famous places to visit*/
+
+#places h2{
+	font-weight: bold;
+	font-family: "Righteous";
+	text-align: center;
+	padding-top: 2%;
+}
+
+.famous{
+	padding:3% 5% 0%;
+}
+
+.place-card{
+	padding:2%;
+}
+
+
+.ul-buttons li{
+	float:left;
+	list-style: none;
+}
+
+#places{
+	padding-bottom: 6%;
+}
+
+.dropdown{
+	padding:1% 5% 1%;
+	margin:1% 5% 1%;
+}
+
+
+
+/*resturants*/
+.rest{
+	padding:1% 5% 2%;
+}
+
+.rest-food{
+	padding:2%;
+}
+
+#street-food h2{
+	font-weight: bold;
+	font-family: "Righteous";
+	text-align: center;
+	padding-top: 4%;
+}
+
+/*metro section*/
+
+#metro{
+	background-color:#00ffff; 
+}
+
+#metro h2,p{
+	text-align: center;
+}
+
+#metro h2{
+	font-family: "Righteous";
+	padding-top:2%;
+}
+
+#metro p{
+	margin:2% 6% 2%;
+}
+
+.metro-photo{
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.mp{
+	width:140px;
+	height:140px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 100%;
+}
+
+/*footer*/
+#footer{
+	background-color: white;
+	padding:60px;
+	text-align: center;
+}
+
+#footer p{
+	color:black;
+}
+
+.ic{
+	color:black;
+	margin:0px 4px;
+	padding-bottom: 15px;
+}
+
+.ic:hover{
+	color:#ef8172;
+}
